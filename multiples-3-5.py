@@ -1,7 +1,7 @@
 def solution(number):
     # First we will check if number is below 0 or not.
 
-    # If number is above 0 or is 0, these sentences were applied.
+    # If number is above 0 or is 0, these sentences were will applied.
     if number >= 0:
 
         # We will generate a list with every number below our number except that unique number.
@@ -20,12 +20,12 @@ def solution(number):
             elif i % 5 == 0:
                 mult5.append(i)
 
-        # Finally we will sum each number on the lists and sum two lists.
+        # Finally we will sum each number on the lists and sum the two lists.
         sum3 = sum(mult3)
         sum5 = sum(mult5)
 
         return sum3+sum5
 
-    # If number is below 0, these sentences were applied.
+    # If number is below 0, these sentences were will applied.
     elif number < 0:
         return 0
